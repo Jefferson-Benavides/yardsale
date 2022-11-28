@@ -1,0 +1,39 @@
+
+> yardsale@1.0.0 start
+> webpack serve --open
+
+asset [1m[32mbundle.js[39m[22m 1.35 MiB [1m[32m[emitted][39m[22m (name: main)
+asset [1m[32m./index.html[39m[22m 343 bytes [1m[32m[emitted][39m[22m
+runtime modules 27.4 KiB 13 modules
+modules by path [1m./node_modules/[39m[22m 1.24 MiB
+  modules by path [1m./node_modules/webpack-dev-server/client/[39m[22m 55.8 KiB 12 modules
+  modules by path [1m./node_modules/webpack/hot/*.js[39m[22m 4.59 KiB 4 modules
+  modules by path [1m./node_modules/html-entities/lib/*.js[39m[22m 81.3 KiB 4 modules
+  modules by path [1m./node_modules/react/[39m[22m 85.7 KiB 2 modules
+  modules by path [1m./node_modules/react-dom/[39m[22m 1000 KiB 2 modules
+  modules by path [1m./node_modules/scheduler/[39m[22m 17.3 KiB
+    [1m./node_modules/scheduler/index.js[39m[22m 198 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/scheduler/cjs/scheduler.development.js[39m[22m 17.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/ansi-html-community/index.js[39m[22m 4.16 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/events/events.js[39m[22m 14.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1m./src/index.js[39m[22m 191 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/index.js[39m[22m [1m[32m3:0-35[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/App' in 'C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src'[39m[22m
+resolve './components/App' in 'C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src'
+  using description file: C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\package.json (relative path: ./src/components/App)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App doesn't exist[39m[22m
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App.js doesn't exist[39m[22m
+      jsx
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\Appjsx doesn't exist[39m[22m
+      as directory
+[1m[31m        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App doesn't exist[39m[22m
+
+webpack 5.75.0 compiled with [1m[31m1 error[39m[22m in 5241 ms

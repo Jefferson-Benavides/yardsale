@@ -1,0 +1,44 @@
+$ npm run start
+
+> yardsale@1.0.0 start
+> webpack serve --open
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8081/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.65.47:8081/
+<i> [webpack-dev-server] Content not from webpack is served from 'C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\public' directory
+asset bundle.js 1.35 MiB [emitted] (name: main)
+asset ./index.html 343 bytes [emitted]
+runtime modules 27.4 KiB 13 modules
+modules by path ./node_modules/ 1.24 MiB
+  modules by path ./node_modules/webpack-dev-server/client/ 55.8 KiB 12 modules
+  modules by path ./node_modules/webpack/hot/*.js 4.59 KiB 4 modules
+  modules by path ./node_modules/html-entities/lib/*.js 81.3 KiB 4 modules
+  modules by path ./node_modules/react/ 85.7 KiB 2 modules
+  modules by path ./node_modules/react-dom/ 1000 KiB 2 modules
+  modules by path ./node_modules/scheduler/ 17.3 KiB
+    ./node_modules/scheduler/index.js 198 bytes [built] [code generated]
+    ./node_modules/scheduler/cjs/scheduler.development.js 17.1 KiB [built] [code generated]
+  ./node_modules/ansi-html-community/index.js 4.16 KiB [built] [code generated]
+  ./node_modules/events/events.js 14.5 KiB [built] [code generated]
+./src/index.js 191 bytes [built] [code generated]
+
+ERROR in ./src/index.js 3:0-35
+Module not found: Error: Can't resolve './components/App' in 'C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src'
+resolve './components/App' in 'C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src'
+  using description file: C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\package.json (relative path: ./src/components/App)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App.js doesn't exist
+      jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\Appjsx doesn't exist
+      as directory
+        C:\jj\scholar\platzi\fullstack\03-reactPractico\YardSale\src\components\App doesn't exist
+
+webpack 5.75.0 compiled with 1 error in 24227 ms
