@@ -53,9 +53,10 @@ nav {
 .navbar-shopping-cart div {
 	width: 16px;
 	height: 16px;
+	color: var(--text-input-field);
 	background-color: var(--hospital-green);
 	border-radius: 50%;
-	font-size: var(--sm);
+	font-size: var(--xs);
 	font-weight: bold;
 	position: absolute;
 	top: -6px;
